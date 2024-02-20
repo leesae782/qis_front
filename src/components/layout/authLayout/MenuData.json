@@ -1,0 +1,102 @@
+[
+    {
+        "menuCode": "MENU001",
+        "menuName": "관리자",
+        "menuUrl": "",
+        "icon": "uil-copy-alt",
+        "page": "",
+        "submenu": [
+            {
+                "menuCode": "MENU002",
+                "menuName": "권한 관리",
+                "menuUrl":  "authorlist",
+                "icon": "uil-copy-alt",
+                "page": "AuthorList",
+                "desc": "관리자가 권한을 관리하는 화면입니다."
+            },
+            {
+                "menuCode": "MENU003",
+                "menuName": "사용자 관리",
+                "menuUrl":  "memberlist",
+                "icon": "uil-copy-alt",
+                "page": "MemberList",
+                "desc": "관리자가 사용자를 관리하는 화면입니다."
+            },
+            {
+                "menuCode": "MENU004",
+                "menuName": "부서 관리",
+                "menuUrl":  "deptlist",
+                "icon": "uil-copy-alt",
+                "page": "DeptList",
+                "desc": "관리자가 부서를 관리하는 화면입니다."
+            },
+            {
+                "menuCode": "MENU005",
+                "menuName": "공통코드",
+                "menuUrl":  "cmmCdlist",
+                "icon": "uil-copy-alt",
+                "page": "CmmCdList",
+                "desc": "관리자가 공통코드를 관리하는 화면입니다."
+            },	
+            {
+                "menuCode": "MENU006",
+                "menuName": "메뉴관리",		
+                "menuUrl":  "menuList",
+                "icon": "uil-copy-alt",
+                "page": "menuList",
+                "desc": "관리자가 메뉴를 관리하는 화면입니다.",
+                "submenu": [
+                    {
+                        "menuCode": "MENU007",
+                        "menuName": "서브의 서브메뉴1",
+                        "menuUrl":  "mydrive2",
+                        "icon": "",
+                        "page": "MyDrive",
+                        "desc": "부서간의 문서를 공유하는 드라이브입니다."
+                    },
+                    {
+                        "menuCode": "MENU008",
+                        "menuName": "서브의 서브메뉴2",
+                        "menuUrl":  "mydrive2",
+                        "icon": "",
+                        "page": "MyDrive",
+                        "desc": "부서간의 문서를 공유하는 드라이브입니다."
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "menuCode": "MENU009",
+        "menuName": "게시판",
+        "menuUrl":  "board",
+        "icon": "uil-copy-alt",
+        "page": "BbsList",
+        "desc": "사용자들간의 자유로운 의견 공유를 위한 공간입니다."
+    },
+    {
+        "menuCode": "MENU010",
+        "menuName": "코딩테스트",
+        "menuUrl":  "mydrive",
+        "icon": "uil-computer-mouse",
+        "page": "Saylee",
+        "desc": "세희 Crud Test 입니다."
+    },
+    {
+        "menuCode": "MENU011",
+        "menuName": "드라이브",
+        "menuUrl": "",
+        "icon": "uil-home-alt",
+        "page": "drive",
+        "submenu": [
+            {
+                "menuCode": "MENU012",
+                "menuName": "공유 드라이브",
+                "menuUrl":  "codingTe",
+                "icon": "",
+                "page": "MyDrive",
+                "desc": "부서간의 문서를 공유하는 드라이브입니다."
+            }
+        ]
+    }
+]
